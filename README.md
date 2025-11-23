@@ -31,8 +31,7 @@ requirements.txt — Dependências do projeto
 
 ▶️ Como Executar o Projeto
 1. Clonar o repositório
-git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
-cd SEU-REPOSITORIO
+git clone https://github.com/SilasCruzz/Pipeline-de-Dados-IoT
 
 2. Rodar com Docker
 
