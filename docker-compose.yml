@@ -1,0 +1,29 @@
+version: "3.9"
+
+services:
+  streamlit-app:
+    container_name: streamlit-iot-dashboard
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    # Porta de acesso ao dashboard
+    ports:
+      - "8501:8501"
+
+    # Volume para facilitar o desenvolvimento (atualiza o código em tempo real)
+    volumes:
+      - ./:/app
+
+    # Comando de inicialização da aplicação Streamlit
+    command: streamlit run app.py --server.port=8501 --server.address=0.0.0.0
+
+    # Variáveis de ambiente necessárias para o projeto
+    environment:
+      NEXT_PUBLIC_SUPABASE_URL: ${NEXT_PUBLIC_SUPABASE_URL}
+      NEXT_PUBLIC_SUPABASE_ANON_KEY: ${NEXT_PUBLIC_SUPABASE_ANON_KEY}
+      PYTHONUNBUFFERED: "1"
+
+    # Opcional: arquivo .env na raiz do projeto para armazenar as variáveis
+    env_file:
+      - .env

@@ -1,0 +1,6 @@
+# Projeto desenvolvido por Silas Cruz Ferreira Cesario (2025)
+streamlit
+pandas
+plotly
+supabase
+python-dotenv

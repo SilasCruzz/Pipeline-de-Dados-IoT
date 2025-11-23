@@ -1,0 +1,32 @@
+# Projeto: IoT Temperature Monitoring Dashboard
+# Autor: Silas Cruz Ferreira Cesario (2025)
+
+# Padroniza final de linha para evitar conflitos entre Windows/Linux/Mac
+* text=auto eol=lf
+
+# Arquivos Python
+*.py text
+
+# Arquivos de configuração
+*.env text
+*.yml text
+*.yaml text
+*.toml text
+*.ini text
+Dockerfile text
+docker-compose.yml text
+
+# Markdown e documentação
+*.md text
+*.txt text
+
+# Arquivos CSV de dados IoT
+*.csv text
+
+# Binários (não alterar linha)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
