@@ -62,7 +62,13 @@ python -m streamlit run app.py --server.port=8501 --server.address=0.0.0.0
 
 📊 Dashboard (Exemplos de Telas)
 
-https://github.com/SilasCruzz/Pipeline-de-Dados-com-IoT-e-Docker/blob/main/image.png
+<img width="1796" height="824" alt="image" src="https://github.com/user-attachments/assets/ca5293de-91a2-4ea7-9241-bfd41f8f0c7a" />
+
+<img width="1852" height="639" alt="image" src="https://github.com/user-attachments/assets/ae538180-fc92-4c54-9b12-19115db603e0" />
+
+<img width="1771" height="708" alt="image" src="https://github.com/user-attachments/assets/2d730752-4680-4cd2-9de0-5c34fcff1b85" />
+
+
 
 
 
